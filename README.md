@@ -1,2 +1,8 @@
-# Balance-manager
-This is a simple Bank Account Manager program in Python. It allows users to create an account, deposit money, withdraw money, and check their account balance. The program helps in managing basic banking operations easily.
+def update_balance(current_balance, deposit_amount):
+    new_balance =  current_balance + deposit_amount
+    print("Your new total balance is:", new_balance)
+
+current = int(input("Enter your current balance: "))
+deposit = int(input("Enter the deposit amount: "))
+
+update_balance(current, deposit)
